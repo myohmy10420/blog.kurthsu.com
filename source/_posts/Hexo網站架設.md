@@ -1,10 +1,15 @@
 ---
 title: Hexo 網站架設到 Github
 date: 2019-04-15 22:00:51
-tags: Hexo deploy Github
+categories:
+ - [Hexo]
+ - [Github]
+tags:
+ - Hexo
+ - Github
 ---
 
-## 環境
+### 環境
 
 node.js v8.11.2
 git 2.9.2
