@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy*/
 _config.yml
+source/_posts/**/*.png
+source/_posts/**/*.jpg
