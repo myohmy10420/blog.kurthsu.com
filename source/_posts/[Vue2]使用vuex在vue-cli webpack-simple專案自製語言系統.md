@@ -1,5 +1,4 @@
 ---
-layout: post
 title: '[Vue2]使用vuex在vue-cli webpack-simple專案自製語言系統'
 date: 2017-08-24 07:34:00
 categories:
