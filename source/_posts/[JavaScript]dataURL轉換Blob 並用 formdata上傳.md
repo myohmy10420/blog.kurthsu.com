@@ -9,7 +9,7 @@ tags:
  - Blob
  - formdata
 ---
-繼上一篇{% post_link '[Vue2]使用vue-avatar-editor套件裁減照片做出大頭貼(Resize image) '[Vue2]使用vue-avatar-editor套件裁減照片做出大頭貼(Resize image)' %}，這次我要做的是用form-data把我的出圖傳上去，但裁剪後得出圖格式是dataURL，而要上傳的格式要是Blob，該如何實現呢？
+繼上一篇{% post_link '[Vue2]使用vue-avatar-editor套件裁減照片做出大頭貼(Resize image)' '[Vue2]使用vue-avatar-editor套件裁減照片做出大頭貼(Resize image)' %}，這次我要做的是用form-data把我的出圖傳上去，但裁剪後得出圖格式是dataURL，而要上傳的格式要是Blob，該如何實現呢？
 
 注意事項：
 1.有import jQuery
