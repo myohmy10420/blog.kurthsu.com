@@ -2,8 +2,10 @@
 title: '[Ubuntu]Ubuntu系統更新和安装 Linux 和 Rails 套件'
 date: 2018-04-27 13:03:00
 categories:
+ - [Devops]
  - [Ubuntu]
 tags:
+ - Devops
  - Ubuntu
 ---
 ## 更新和安装 Linux 套件
