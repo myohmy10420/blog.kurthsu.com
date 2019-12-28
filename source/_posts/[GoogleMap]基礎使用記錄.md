@@ -6,7 +6,6 @@ categories:
 tags:
  - GoogleMap
 comments: true
-categories:
 ---
 最近要研究google map真的是挫折百般，網上一堆說很簡單操作的可是我用起來就是一直覺得怪怪的ＸＤ，也許我沒有寫程式的天賦，但至少要知道怎麼努力。
 
