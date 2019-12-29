@@ -6,8 +6,7 @@ categories:
 tags:
  - Nginx
 ---
-假設已經利用Capistrano部署了一個Rails專案到雲端伺服器上，請參考文章：
-[[Rails] Capistrano 部署rails專案到 linode](http://myohmy10420-blog.logdown.com/posts/7442885)
+假設已經利用Capistrano部署了一個Rails專案到雲端伺服器上，請參考文章：{% post_link '[Rails] Capistrano 部署rails專案到 linode' '[Rails] Capistrano 部署rails專案到 linode' %}
 
 在`伺服器上`用`root權限`編輯/etc/nginx/nginx.conf：
 ``` javascript /etc/nginx/nginx.conf

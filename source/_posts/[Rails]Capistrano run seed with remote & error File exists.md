@@ -17,7 +17,7 @@ tags:
 ## 使用
 ---
 假設已經使用了Capistrano部署完，如沒有參考：
-[[Rails] Capistrano 部署rails專案到 linode](http://myohmy10420-blog.logdown.com/posts/7442885)
+{% post_link '[Rails] Capistrano 部署rails專案到 linode' '[Rails] Capistrano 部署rails專案到 linode' %}
 
 再來開始使用套件
 ``` ruby Gemfile

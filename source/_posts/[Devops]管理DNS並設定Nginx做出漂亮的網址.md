@@ -75,7 +75,7 @@ store         | @              | store.test.com
 
 ## 設定Nginx
 ---
-如何安裝請參考[[Rails] 安裝數據庫和Nginx + Passenger 網站服務器](http://myohmy10420-blog.logdown.com/posts/7442868-rails)
+如何安裝請參考 {% post_link '[Devops]安裝數據庫和Nginx + Passenger 網站服務器' '[Devops]安裝數據庫和Nginx + Passenger 網站服務器' %}
 
 可以觀察`/etc/nginx/nginx.conf`檔案，可以在http底下建立server物件，指定什麼樣的domain訪問這個主機會開啟什麼樣的專案出來，就如同主機入口的招待一樣。
 

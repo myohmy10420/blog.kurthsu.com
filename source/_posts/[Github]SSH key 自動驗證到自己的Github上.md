@@ -1,5 +1,5 @@
 ---
-title: '[Github]SSH key 自動驗證到自己的Github上'
+title: '[Github]SSH key 自動驗證到自己的雲端機器上'
 date: 2018-04-27 11:44:00
 categories:
  - [Github]
@@ -35,7 +35,7 @@ Github在做git push或者要登入雲端機的時候都需要打密碼，我們
 `$ chmod 644 ~/.ssh/authorized_keys`
 
 應該就大功告成了！
-如果不知道chmod請參考我另一篇文章[Linux 權限管理](http://myohmy10420-blog.logdown.com/posts/7427437)
+如果不知道chmod請參考我另一篇文章{% post_link '[Linux]Linux 權限管理' '[Linux]Linux 權限管理' %}
 
 ## 不允許遠端登入
 ---

@@ -11,9 +11,9 @@ tags:
 ---
 基本的使用可以先參考這些資料：
 [ransack官方文件](https://github.com/activerecord-hackery/ransack)
-[[Rails]ransack最基本使用](http://myohmy10420-blog.logdown.com/posts/7371244)
+{% post_link '[Rails]ransack最基本使用' '[Rails]ransack最基本使用' %}
 
-如果照著[[Rails]ransack最基本使用](http://myohmy10420-blog.logdown.com/posts/7371244)做出來之後把它放在header跳到其他頁面會報錯，因為他會找不到@q這個變數，但要在每個controller加上@q又不切實際，最好的辦法就是把它獨立出來吧！
+如果照著{% post_link '[Rails]ransack最基本使用' '[Rails]ransack最基本使用' %}做出來之後把它放在header跳到其他頁面會報錯，因為他會找不到@q這個變數，但要在每個controller加上@q又不切實際，最好的辦法就是把它獨立出來吧！
 
 雖然他是一個form表單，但還是用get比較好，post固然也會運作，但如果原地重整頁面的話就會爆炸嘍！
 

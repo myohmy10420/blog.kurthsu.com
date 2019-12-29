@@ -11,8 +11,7 @@ tags:
  - Ubuntu
 ---
 使用前建議：
-安裝並設定好Nginx和管理好DNS，可以參考這篇文章：
-[管理DNS並設定Nginx做出漂亮的網址](http://myohmy10420-blog.logdown.com/posts/7595945)
+安裝並設定好Nginx和管理好DNS，可以參考這篇文章：{% post_link '[Devops]管理DNS並設定Nginx做出漂亮的網址' '[Devops]管理DNS並設定Nginx做出漂亮的網址' %}
 
 ---
 [letsencrypt](https://letsencrypt.org/)可以直接申請免費的憑證，全程只要在自己的主機上下command就好。

@@ -19,8 +19,7 @@ tags:
 `$ adduser kurt`
 頭兩次是設定密碼和確認密碼，設定完之後一直按enter即可。
 
-P.S:`$ sudo adduser --disabled-password username`可以創造一個沒有密碼的用戶，用SSH key登入更安全，可以參考這篇：
-[SSH key 自動驗證到自己的雲端機器上](http://myohmy10420-blog.logdown.com/posts/7428801)
+P.S:`$ sudo adduser --disabled-password username`可以創造一個沒有密碼的用戶，用SSH key登入更安全，可以參考這篇：{% post_link '[Github]SSH key 自動驗證到自己的Github上' '[Github]SSH key 自動驗證到自己的Github上' %}
 
 `$ exit`可以logout回到本地端，此時可以直接用kurt這個身份登入：
 `$ ssh kurt@xxx.xxx.xxx.xx`
@@ -75,5 +74,4 @@ x=1
 所以第一個數字是6 = 2 + 4代表`rw-`
 第二個單純的是4代表`r--`
 
-想知道如果利用SSH KEY免打密碼登入到自己的雲端機器請參考這篇：
-[SSH key 自動驗證到自己的雲端機器上](http://myohmy10420-blog.logdown.com/posts/7428801)
+想知道如果利用SSH KEY免打密碼登入到自己的雲端機器請參考這篇：{% post_link '[Github]SSH key 自動驗證到自己的Github上' '[Github]SSH key 自動驗證到自己的Github上' %}

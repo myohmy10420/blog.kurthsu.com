@@ -15,9 +15,8 @@ tags:
 3.在deploy新版本的時候舊有的版本仍然可以運行，使用者感受不大
 
 開始之前linode上的主機要先裝好Rails環境和數據庫，可以參考下面先前的文章：
-[[Rails]Ubuntu系統更新和安装 Linux 和 Rails 套件](http://myohmy10420-blog.logdown.com/posts/7430034)
-[[Rails] 安裝數據庫和Nginx + Passenger 網站服務器](http://myohmy10420-blog.logdown.com/posts/7442868)
-`如果部署第二個專案還是要先建立數據庫`
+{% post_link '[Ubuntu]Ubuntu系統更新和安装 Linux 和 Rails 套件' '[Ubuntu]Ubuntu系統更新和安装 Linux 和 Rails 套件' %}
+{% post_link '[Devops]安裝數據庫和Nginx + Passenger 網站服務器' '[Devops]安裝數據庫和Nginx + Passenger 網站服務器' %}
 
 ## 先在自己的專案進行設定
 ---
@@ -167,4 +166,4 @@ production:
 在 config/deploy.rb 的設定中，linked_files 和 linked_dirs 就是在配置部署過程中，需要將這些 shared 下的檔案和目錄，連結到新的 releases 目錄裡面去。
 
 最後也可以參考如何設定Nginx設定
-[[Rails] Nginx設定](http://myohmy10420-blog.logdown.com/posts/7442904)
+{% post_link '[Nginx]Nginx 設定' '[Nginx]Nginx 設定' %}
