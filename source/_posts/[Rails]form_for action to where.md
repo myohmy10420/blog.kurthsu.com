@@ -1,5 +1,5 @@
 ---
-title: '[Rails]form_for action to where?'
+title: '[Rails]form_for action to where'
 date: 2018-04-16 06:42:00
 categories:
  - [Rails]

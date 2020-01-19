@@ -1,5 +1,5 @@
 ---
-title: '[Rails]image file in asset or public?'
+title: '[Rails]image file in asset or public'
 date: 2018-04-22 13:55:00
 categories:
  - [Rails]
