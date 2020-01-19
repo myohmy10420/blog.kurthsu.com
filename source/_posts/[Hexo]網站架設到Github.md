@@ -1,5 +1,5 @@
 ---
-title: Hexo 網站架設到 Github
+title: '[Hexo]網站架設到Github'
 date: 2019-04-15 22:00:51
 categories:
  - [Hexo]
