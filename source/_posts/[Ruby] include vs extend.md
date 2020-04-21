@@ -26,7 +26,7 @@ module ForInstance
 end
 
 class Person
-  extend ForInstance
+  extend ForClass
   include ForInstance
 end
 
@@ -55,7 +55,7 @@ puts BasicObject.superclass # nil
 Person > Object > BasicObject
 
 但在剛剛的例子中 include 或 extend 了兩個 module 都會插入找尋順序, 且越晚插入的將會排序越前面, 所以剛剛的例子找尋順序如下:
-Person > ForInstance > ForInstance > Object > BasicObject
+Person > ForInstance > ForClass > Object > BasicObject
 
 ## class object methods vs instance object methods
 
@@ -127,7 +127,7 @@ Person.speak
 # instance Hi
 ```
 1. 可以看到程式碼由上往下跑的時候會先初始化 module Action 跟 class Person
-> 此時先 print 出 Self_1 is Action 再來 Self_3 is Person
+> 此時先 print 出 Self_1 is Action 再來 Self_4 is Person
 2. 再來執行 Person.speak, 因為 Person 沒有 speak 這個 method 所以照著 methods 找尋順序找到了 module Action 的 speak
 > 此時 print 出 Self_3 is Person
 3. 再來執行最後的 puts
