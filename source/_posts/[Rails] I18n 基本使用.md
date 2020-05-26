@@ -1,5 +1,5 @@
 ---
-title: '[Rails]i18n基本使用'
+title: '[Rails] I18n 基本使用'
 date: 2018-05-14 13:30:00
 categories:
  - [Rails, i18n]
@@ -13,7 +13,7 @@ gem "rails-i18n"
 ```
 `$ bundle install`
 
-我們所有翻譯檔案都會在`config/locals`目錄下，都是為`.yml`的檔案，而檔名不重要，純粹是好分辨而已，這邊就創鈔兩個檔案：
+我們所有翻譯檔案都會在`config/locals`目錄下，都是為`.yml`的檔案，而檔名不重要，純粹是好分辨而已，這邊就創造兩個檔案：
 `en.yml`代表英文翻譯
 `zh-TW.yml`代表中文翻譯
 
@@ -41,7 +41,7 @@ t(:welcome, :username => "Kurt")
 ```
 
 在application_controller.rb設定如下：
-``` javascript application_controller.rb
+``` ruby application_controller.rb
 before_action :set_locale
 
 def set_locale
@@ -59,3 +59,6 @@ end
 <%= link_to "中文版", :controller => controller_name, :action => action_name, :locale => "zh-TW" %>
 <%= link_to "English", :controller => controller_name, :action => action_name, :locale => "en" %>
 ```
+
+### I18n 系列:
+{% post_link '[Rails] I18n default scope' '[Rails] I18n default scope]' %}
