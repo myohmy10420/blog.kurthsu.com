@@ -60,5 +60,6 @@ end
 <%= link_to "English", :controller => controller_name, :action => action_name, :locale => "en" %>
 ```
 
-### I18n 系列:
+## I18n 系列:
 {% post_link '[Rails] I18n default scope' '[Rails] I18n default scope]' %}
+{% post_link '[Rails] I18n 語系設定' '[Rails] I18n 語系設定]' %}

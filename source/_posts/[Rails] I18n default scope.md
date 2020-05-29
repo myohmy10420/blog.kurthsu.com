@@ -75,5 +75,6 @@ I18n.t(:man, scope: [:super, :iron], default: [:woman, 'I am Iron man'])
 
 我還是覺得非必要不要寫太多的 scope 和 default 其實挺通靈的, 如果沒有把 devise 的 find_message binding 看裡面發生了什麼事情其實挺難懂的, 還是用最基本的寫法比較好收尋和維護
 
-### I18n 系列:
+## I18n 系列:
 {% post_link '[Rails] I18n 基本使用' '[Rails] I18n 基本使用]' %}
+{% post_link '[Rails] I18n 語系設定' '[Rails] I18n 語系設定]' %}
