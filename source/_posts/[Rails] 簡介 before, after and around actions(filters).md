@@ -17,8 +17,8 @@ tags:
 
 在 rails action_controller 的官方文件裡面, before_action 那些都稱為 filter, 不過查詢 before_action 或者 before_filter 都可以找到很多資訊, filter 是舊的 helper 名稱在 rails v2.3.8 已經被遺棄了
 
-> (所有 filters 官方文件)[https://guides.rubyonrails.org/action_controller_overview.html#filters], 就是現在的 before_action 那些
-> (before_filter 官方文件)[https://apidock.com/rails/ActionController/Filters/ClassMethods/before_filter], 名稱在 rails v2.3.8 已經被遺棄
+> [所有 filters 官方文件](https://guides.rubyonrails.org/action_controller_overview.html#filters), 就是現在的 before_action 那些
+> [before_filter 官方文件](https://apidock.com/rails/ActionController/Filters/ClassMethods/before_filter), 名稱在 rails v2.3.8 已經被遺棄
 
 `接下來 before_action, after_action 等等都統稱為 filters`
 

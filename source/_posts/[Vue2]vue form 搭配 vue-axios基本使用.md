@@ -229,6 +229,6 @@ data: function () {
 注意到 axios 的 callback 的 scope, 想用`$t('trans.xxx')`執行 i18n 的話要改成 `this.$root.$t('trans.xxx')`
 
 參考來源:
-首先感謝大學同學(Hydra)[https://github.com/hydragg]大大的一些指導
-(Hydra動態新增欄位的示範)[https://jsbin.com/luzosafate/1/edit?html,js,console,output]
-(How to fix "this is undefined" in Vue -> 可以了解一下什麼時候該不該用 arrow function)[https://michaelnthiessen.com/this-is-undefined/]
+首先感謝大學同學[Hydra](https://github.com/hydragg)大大的一些指導
+[Hydra動態新增欄位的示範](https://jsbin.com/luzosafate/1/edit?html,js,console,output)
+[How to fix "this is undefined" in Vue -> 可以了解一下什麼時候該不該用 arrow function](https://michaelnthiessen.com/this-is-undefined/)
